@@ -1,0 +1,189 @@
+@media screen and (max-width: 768px) {
+
+    /* Start navbar */
+    .nav {
+        flex-direction: column
+    }
+
+    /* Logo */
+    .logo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%
+    }
+
+    /* Show links button */
+    .but {
+        display: block
+    }
+
+    /* Links */
+    .nav ul {
+        display: none
+    }
+
+    /* Show Links */
+    .showlinks {
+        display: flex !important;
+        flex-direction: column;
+        align-items: start;
+        width: 100%;
+        padding: 0
+    }
+
+    /* End navbar */
+
+    /* Start header */
+    header .cover {
+        flex-direction: column
+    }
+
+    header .about {
+        width: 100%;
+        text-align: center;
+    }
+
+    header .about hr {
+        margin: 30px auto;
+    }
+
+    header .subscribe {
+        margin-top: 50px;
+        width: 70%;
+    }
+
+    /* End header */
+
+    /* Start Social */
+    .social .row {
+        flex-direction: column
+    }
+
+    .social .title {
+        width: 100%;
+        text-align: center
+    }
+
+    .social .icons {
+        width: 100%;
+        font-size: 2em;
+        padding: 14px
+    }
+
+    /* End Social */
+
+    /* Start galery */
+    .galary .row {
+        flex-direction: column;
+        text-align: center
+    }
+
+    .discrib .box {
+        flex-direction: column;
+        margin-left: 0
+    }
+
+    .galary ul {
+        flex-direction: row;
+        width: auto
+    }
+
+    .galary ul li {
+        padding: 20px
+    }
+
+    .discrib .info,
+    .discrib .pic {
+        width: 100%;
+        margin-top: 20px
+    }
+
+    /* End galery */
+
+    /* Start sub list */
+
+    .list .row {
+        flex-direction: column
+    }
+
+    .list .text,
+    .list .photo {
+        width: 100%
+    }
+
+    .list .photo {
+        text-align: center
+    }
+
+    .list .text h3 {
+        text-align: center
+    }
+
+    .list .text hr {
+        margin: 30px auto
+    }
+
+    .list .text p:first-child {
+        text-align: center;
+        margin-bottom: 30px
+    }
+
+    /* End sub list */
+
+    /* Start benifits */
+    
+    .bens .row {
+        flex-direction: column
+    }
+
+    .ben{
+        width: 100%
+    }
+
+    /* End benifits */
+
+    /* Start price option */
+    .poption .row {
+        flex-direction: column;
+        align-items: center
+    }
+
+    .option {
+        width: 75%
+    }
+
+    /* End price option */
+
+    /* Start testimonial */
+    .testimonial .row {
+        flex-direction: column;
+
+    }
+
+    .testi {
+        width: 100%;
+    }
+
+    /* End testimonial */
+
+    /* Start stylish */
+    .stylish {
+        height: 500px;
+    }
+
+    /* End stylish */
+
+    /* Start contact */
+    .contact .row {
+        flex-direction: column;
+
+    }
+
+    .contact .left,
+    .contact .right {
+        width: 100%;
+    }
+
+    /* End contact */
+}
